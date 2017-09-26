@@ -29,6 +29,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootTest
 public class ApplicationTest {
 	
+	
 	@Autowired
 	private RestTemplate restTemplate;
 
@@ -36,5 +37,6 @@ public class ApplicationTest {
 	public void contextLoads() {
 		assertThat(restTemplate).isNotNull();
 	}
-
+	
+	
 }
